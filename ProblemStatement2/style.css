@@ -8,7 +8,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color:aqua;
+    background-color:whitesmoke;
 }
 
 .logos{
@@ -46,9 +46,44 @@ body{
     margin: 20px 20px;
 }
 
-/* .list ul li{
-    margin-right: 30px;
-    list-style: none;
-    
-    
-} */
+.containerinfo{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    margin: 50px 0px;  
+    background-color: rgb(207, 178, 114);
+}
+
+.singleCard{
+        height: 70vh;
+        width: 300px;
+        margin: 15px;
+        padding: 15px;
+        background-color: cadetblue;
+}
+
+.singleCard:hover{
+    height: 70vh;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgb(63, 197, 202);
+    max-width:fit-content;
+}
+
+.card-image img{
+   height: 400px;
+   margin:  auto;
+   max-width: 300px;
+}
+
+.crd{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.singleCard p{
+    font-weight: 800;
+    font-size: medium;
+}
